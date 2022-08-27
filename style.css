@@ -28,6 +28,7 @@ gap: 2px;
 list-style: none;
 }
 .item {
+<<<<<<< HEAD
     padding: 15px 1px;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -292,3 +293,43 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 */
+=======
+padding: 12px 35px;
+font-weight: bold;
+/* border-bottom: 2px solid transparent; */
+}
+/* .item:hover{
+    /* border-bottom: 2px solid #ffffff; */
+/* } */ 
+.item>span{
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+}
+.item:hover>span{
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+.content{
+    width: 1024px;
+    height: auto;
+    margin: 40px auto;
+}
+.title{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 99.1397px;
+    line-height: 114px;
+
+    color: #FFFFFF;
+}
+.search{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff36;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px;
+}
+>>>>>>> 8ab786d95abf1da6a3c6ce87a79663df0b79195a
